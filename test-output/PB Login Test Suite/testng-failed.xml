@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PB Login Test Suite]" parallel="tests">
+  <parameter name="pass" value="adminadmin"/>
+  <parameter name="userID" value="admin"/>
+  <test thread-count="5" name="PB Non-Admin Login Test(failed)" parallel="tests">
+    <parameter name="pass" value="paliwal"/>
+    <parameter name="userID" value="sumit"/>
+    <classes>
+      <class name="com.parameterization.test.WithParameter">
+        <methods>
+          <include name="testWithParameter" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.parameterization.test.WithParameter -->
+    </classes>
+  </test> <!-- PB Non-Admin Login Test(failed) -->
+  <test thread-count="5" name="PB Admin Login Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.parameterization.test.WithParameterSuiteLevel">
+        <methods>
+          <include name="testWithParameter" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.parameterization.test.WithParameterSuiteLevel -->
+    </classes>
+  </test> <!-- PB Admin Login Test(failed) -->
+</suite> <!-- Failed suite [PB Login Test Suite] -->

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="PB Login Test Suite" parallel="tests">
+
+		<parameter name="userID" value="admin"></parameter>
+		<parameter name="pass" value="adminadmin"></parameter>
+		
+	<test name="PB Non-Admin Login Test">
+	
+		<parameter name="userID" value="sumit"></parameter>
+		<parameter name="pass" value="paliwal"></parameter>
+		
+		<classes>
+			<class name="com.parameterization.test.WithParameter"></class>
+		</classes>
+		
+	</test>
+	
+	<test name="PB Admin Login Test">
+	
+		<classes>
+			<class name="com.parameterization.test.WithParameterSuiteLevel"></class>
+		</classes>
+		
+	</test>
+	
+</suite>

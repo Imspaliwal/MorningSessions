@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18405" started-at="2019-09-21T13:20:01Z" finished-at="2019-09-21T13:20:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18405" started-at="2019-09-21T13:20:01Z" finished-at="2019-09-21T13:20:19Z">
+      <class name="com.basic.test.DropdownOtherThanAlreadySelected">
+        <test-method status="PASS" signature="DropdownOtherThanAlreadySelectedWithUtilityMethods()[pri:0, instance:com.basic.test.DropdownOtherThanAlreadySelected@1da51a35]" name="DropdownOtherThanAlreadySelectedWithUtilityMethods" duration-ms="18372" started-at="2019-09-21T13:20:01Z" description="Dropdown Other Than Already Selected with Utility Methods" finished-at="2019-09-21T13:20:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropdownOtherThanAlreadySelectedWithUtilityMethods -->
+      </class> <!-- com.basic.test.DropdownOtherThanAlreadySelected -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
